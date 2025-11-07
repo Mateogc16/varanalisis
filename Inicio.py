@@ -70,7 +70,7 @@ if uploaded_file is not None:
         tab1, tab2, tab3, tab4 = st.tabs(["📈 Visualización", "📊 Estadísticas", "🔍 Filtros", "🗺️ Información del Sitio"])
 
         with tab1:
-            st.subheader('Visualización de Datos')
+            st.subheader('SENSOR DE LUZ MIDIR (visualizador de datos)')
             
             # Chart type selector
             chart_type = st.selectbox(
